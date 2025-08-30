@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Journey"
+    url: /pages/journey/
+  - title: "Projects"
+    url: /pages/projects/
+  - title: "Gallery"
+    url: /pages/gallery/
+  - title: "Videos"
+    url: /pages/videos/
+  - title: "CV"
+    url: /pages/cv/
+  - title: "Contact"
+    url: /pages/contact/
