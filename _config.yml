@@ -1,26 +1,24 @@
 title: "Sai Subhash Mahamkali"
-description: "My journey from Undergrad to PhD: Plant genomics, fieldwork, Machine learning."
+description: "My journey from Undergrad to PhD: genomics, fieldwork, tech."
 url: "https://subhashmahamkali.github.io"
-baseurl: ""  
+baseurl: ""   # user sites keep this empty
+
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# look & feel
 minimal_mistakes_skin: "dark"
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+markdown: kramdown
 
-include:
-  - pages
-
+# default page options
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
       layout: single
       author_profile: false
