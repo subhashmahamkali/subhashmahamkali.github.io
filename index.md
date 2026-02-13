@@ -5,13 +5,13 @@ excerpt: "Quantitative genetics and genomics researcher building production-read
 classes: wide
 ---
 
-<div class="recruiter-hero">
-  <strong>Recruiter Snapshot</strong><br>
+<div class="profile-hero">
+  <strong>Professional Snapshot</strong><br>
   I work at the intersection of <strong>plant genomics</strong>, <strong>quantitative genetics</strong>, and <strong>computational pipelines</strong>. I enjoy turning biological questions into robust, explainable analyses.
-  <div class="recruiter-badges">
-    <span class="recruiter-badge">Population Genomics</span>
-    <span class="recruiter-badge">GWAS & Quantitative Traits</span>
-    <span class="recruiter-badge">R + Python + HPC</span>
+  <div class="profile-badges">
+    <span class="profile-badge">Population Genomics</span>
+    <span class="profile-badge">GWAS & Quantitative Traits</span>
+    <span class="profile-badge">R + Python + HPC</span>
   </div>
 </div>
 
@@ -21,16 +21,16 @@ classes: wide
 
 ## What I Bring
 
-<div class="recruiter-grid">
-  <div class="recruiter-card">
+<div class="profile-grid">
+  <div class="profile-card">
     <h3>Scientific Depth</h3>
     <p>End-to-end genomics work from field and phenotyping context to statistical genetics and biological interpretation.</p>
   </div>
-  <div class="recruiter-card">
+  <div class="profile-card">
     <h3>Engineering Mindset</h3>
     <p>Reproducible analysis pipelines, clear code, and scalable computation for large biological datasets.</p>
   </div>
-  <div class="recruiter-card">
+  <div class="profile-card">
     <h3>Communication</h3>
     <p>Experience translating complex research outcomes into practical decisions for mixed technical audiences.</p>
   </div>

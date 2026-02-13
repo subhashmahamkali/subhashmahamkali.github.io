@@ -9,9 +9,9 @@ layout: single
 - GitHub: [@subhashmahamkali](https://github.com/subhashmahamkali)
 - Website: [subhashmahamkali.github.io](https://subhashmahamkali.github.io/)
 - LinkedIn: Add your profile URL here
-- Email: Add your preferred recruiter-facing email here
+- Email: Add your preferred email here
 
-## Preferred Inbound Message
+## Message Format
 
 When reaching out, include:
 

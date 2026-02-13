@@ -26,9 +26,9 @@ Worked on interdisciplinary research bridging experimental and computational int
 - Contribution: data processing and scientific synthesis
 - Value: demonstrated cross-domain adaptability and collaboration
 
-## Notes For Recruiters
+## More Details
 
-If you want a role-specific walkthrough, I can share:
+If you want a project walkthrough, I can share:
 
 - representative code snippets
 - method decisions and tradeoffs
