@@ -119,3 +119,50 @@ h4,
     grid-template-columns: 1fr;
   }
 }
+
+.journey-intro {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.journey-intro p {
+  margin: 0;
+}
+
+.journey-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.journey-photo-card {
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.08);
+}
+
+.journey-photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.journey-photo-card figcaption {
+  padding: 0.65rem 0.75rem;
+  font-size: 0.9rem;
+  color: #1f2937;
+}
+
+@media (max-width: 900px) {
+  .journey-photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
