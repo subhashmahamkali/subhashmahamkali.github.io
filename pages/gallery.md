@@ -2,8 +2,9 @@
 title: "Gallery"
 permalink: /pages/gallery/
 layout: single
+classes: wide page-full-width
 ---
 
-This section will showcase fieldwork and conference highlights.
+This page is now merged into the visual timeline on:
 
-Add images under `assets/img/gallery/` and then list them here with captions.
+[My Journey](/pages/journey/)
