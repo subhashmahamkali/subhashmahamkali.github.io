@@ -2,7 +2,7 @@
 title: "My Journey"
 permalink: /pages/journey/
 layout: single
-classes: wide
+classes: wide journey-wide
 ---
 
 <div class="journey-intro">
