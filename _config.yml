@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
 # look & feel
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "default"
 markdown: kramdown
 
 # default page options

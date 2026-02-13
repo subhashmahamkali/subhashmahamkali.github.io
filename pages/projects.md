@@ -4,10 +4,32 @@ permalink: /pages/projects/
 layout: single
 ---
 
+## Featured Work
+
 ### Sorghum Evolutionary Genomics
-Brief 2–3 lines + an image.
+Built analysis workflows to identify adaptation signals and characterize diversity patterns in sorghum populations.
 
-![Selection scan](/assets/img/projects/sorghum_b2_scan.webp){: width="900" loading="lazy" alt="Sorghum selection scan"}
+- Domain: crop evolution and quantitative traits
+- Methods: population genetics, comparative analyses, reproducible scripting
+- Value: supports better trait targeting for breeding and biological interpretation
 
-### MXene Nanomaterials
-Brief 2–3 lines + an image.
+### Computational Trait Analysis
+Developed data-centric workflows for trait analysis across environments and genotypes.
+
+- Tools: R, Python, HPC
+- Focus: clean data handling, reproducibility, and transparent statistical logic
+- Outcome: faster iteration from raw data to interpretable results
+
+### MXene Nanomaterials (Interdisciplinary)
+Worked on interdisciplinary research bridging experimental and computational interpretation.
+
+- Contribution: data processing and scientific synthesis
+- Value: demonstrated cross-domain adaptability and collaboration
+
+## Notes For Recruiters
+
+If you want a role-specific walkthrough, I can share:
+
+- representative code snippets
+- method decisions and tradeoffs
+- concise impact summaries for each project
