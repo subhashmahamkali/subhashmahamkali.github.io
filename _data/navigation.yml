@@ -9,7 +9,5 @@ main:
     url: /pages/journey/
   - title: "Contact"
     url: /pages/contact/
-  - title: "Gallery"
-    url: /pages/gallery/
   - title: "Videos"
     url: /pages/videos/
