@@ -37,23 +37,25 @@ h4,
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
 }
 
-.masthead .site-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.9rem;
-}
-
 .masthead .site-logo {
-  margin-right: 0.35rem;
+  margin-right: 0.55rem;
 }
 
 .masthead .site-logo img {
-  width: 88px;
-  height: 88px;
-  border-radius: 14px;
+  width: 128px !important;
+  height: auto !important;
+  max-height: none !important;
+  border-radius: 12px;
   display: block;
-  object-fit: cover;
+  object-fit: contain !important;
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.22);
+}
+
+.masthead .site-title {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #334155;
 }
 
 .masthead__menu-item a {
@@ -139,9 +141,12 @@ h4,
   }
 
   .masthead .site-logo img {
-    width: 64px;
-    height: 64px;
-    border-radius: 12px;
+    width: 94px !important;
+    border-radius: 10px;
+  }
+
+  .masthead .site-title {
+    font-size: 1.55rem;
   }
 }
 
