@@ -1,31 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 260" role="img" aria-label="SM DNA logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Subhash Mahamkali logo">
   <defs>
-    <linearGradient id="iconBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#0f766e"/>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020611"/>
+      <stop offset="55%" stop-color="#0a1430"/>
+      <stop offset="100%" stop-color="#1d2a4a"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5dff3f"/>
+      <stop offset="100%" stop-color="#b5f3a7"/>
     </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect x="28" y="28" width="204" height="204" rx="44" fill="url(#iconBg)"/>
-  <path d="M150 52v156" stroke="rgba(255,255,255,0.32)" stroke-width="3.5"/>
+  <rect x="8" y="8" width="1008" height="1008" rx="14" fill="#000"/>
+  <rect x="22" y="22" width="980" height="980" rx="12" fill="url(#bg)"/>
 
-  <text x="45" y="153" fill="#f8fafc" font-size="76" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="0.5">SM</text>
-
-  <g fill="none" stroke-linecap="round" transform="translate(158,58)">
-    <path d="M8 2c11 10 11 20 0 30s-11 20 0 30 11 20 0 30" stroke="#fbbf24" stroke-width="6"/>
-    <path d="M34 2c-11 10-11 20 0 30s11 20 0 30-11 20 0 30" stroke="#fbbf24" stroke-width="6"/>
-    <path d="M12 12h18" stroke="#fef3c7" stroke-width="4.5"/>
-    <path d="M10 27h22" stroke="#fef3c7" stroke-width="4.5"/>
-    <path d="M10 42h22" stroke="#fef3c7" stroke-width="4.5"/>
-    <path d="M10 57h22" stroke="#fef3c7" stroke-width="4.5"/>
-    <path d="M10 72h22" stroke="#fef3c7" stroke-width="4.5"/>
-    <path d="M12 87h18" stroke="#fef3c7" stroke-width="4.5"/>
+  <g opacity="0.08" stroke="#5c79bb" stroke-width="2">
+    <path d="M90 120 L410 440"/>
+    <path d="M120 120 L440 440"/>
+    <path d="M150 120 L470 440"/>
+    <path d="M180 120 L500 440"/>
+    <path d="M210 120 L530 440"/>
   </g>
 
-  <text x="270" y="118" fill="url(#titleGrad)" font-size="64" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Sai Subhash Mahamkali</text>
-  <text x="272" y="170" fill="#334155" font-size="31" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Genomics  •  Quantitative Genetics  •  Computational Biology</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <g stroke="#f9a37f" stroke-width="4">
+      <path d="M0 300 L110 410 L240 410 L290 360"/>
+      <path d="M0 485 L210 485 L250 515"/>
+      <circle cx="170" cy="485" r="6" fill="#ffc8ae" stroke="none"/>
+      <circle cx="290" cy="360" r="6" fill="#ffc8ae" stroke="none"/>
+      <circle cx="262" cy="515" r="6" fill="#ffc8ae" stroke="none"/>
+    </g>
+
+    <g stroke="#6dff52" stroke-width="4">
+      <path d="M30 600 L100 660 L210 660 L250 690 L290 690 L330 650"/>
+      <path d="M30 760 L290 760 L360 690"/>
+      <circle cx="250" cy="690" r="6" fill="#7aff61" stroke="none"/>
+      <circle cx="140" cy="760" r="6" fill="#7aff61" stroke="none"/>
+      <circle cx="330" cy="650" r="6" fill="#7aff61" stroke="none"/>
+    </g>
+
+    <g stroke="#dfe3ef" stroke-width="4">
+      <path d="M612 500 L700 500 L740 458 L780 458"/>
+      <path d="M700 540 L760 540 L790 510 L930 510"/>
+      <path d="M700 580 L760 580 L790 610 L930 610"/>
+      <path d="M700 620 L760 620"/>
+      <path d="M700 660 L760 660"/>
+      <path d="M700 700 L760 700 L790 670 L875 670"/>
+      <circle cx="790" cy="510" r="6" fill="#ffbf9f" stroke="none"/>
+      <circle cx="930" cy="510" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="790" cy="610" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="875" cy="670" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="700" cy="540" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="700" cy="620" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="700" cy="660" r="6" fill="#86f98e" stroke="none"/>
+      <circle cx="700" cy="700" r="6" fill="#86f98e" stroke="none"/>
+    </g>
+  </g>
+
+  <text x="512" y="620" text-anchor="middle" fill="#f4f5f7" font-size="250" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="2">SM</text>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M512 215 L512 810" stroke="#68f260" stroke-width="8"/>
+
+    <path d="M512 212 C500 195, 492 176, 512 155 C532 176, 524 195, 512 212" fill="#e8f7de" stroke="#0e1e13" stroke-width="2"/>
+    <path d="M512 222 L512 156" stroke="#0e1e13" stroke-width="5"/>
+
+    <path d="M512 332 C470 300, 450 265, 426 230 C472 238, 502 260, 512 332" fill="url(#leaf)" stroke="#0e1e13" stroke-width="2.5"/>
+    <path d="M512 332 C554 300, 574 265, 598 230 C552 238, 522 260, 512 332" fill="url(#leaf)" stroke="#0e1e13" stroke-width="2.5"/>
+
+    <path d="M512 390 C485 370, 474 349, 456 325 C486 331, 503 344, 512 390" fill="#67ff4b" stroke="#0e1e13" stroke-width="2"/>
+    <path d="M512 390 C539 370, 550 349, 568 325 C538 331, 521 344, 512 390" fill="#67ff4b" stroke="#0e1e13" stroke-width="2"/>
+
+    <path d="M485 455 C476 435, 468 422, 480 408 C497 424, 494 438, 485 455" fill="#67ff4b" stroke="#0e1e13" stroke-width="2"/>
+
+    <path d="M512 705 C475 735, 472 778, 512 810 C552 778, 549 735, 512 705 Z" fill="none" stroke="#69fa58" stroke-width="6"/>
+    <path d="M486 708 C499 720, 501 732, 486 744 C471 756, 473 770, 486 782" stroke="#f4f7f4" stroke-width="5"/>
+    <path d="M538 708 C525 720, 523 732, 538 744 C553 756, 551 770, 538 782" stroke="#f4f7f4" stroke-width="5"/>
+    <path d="M496 719h32" stroke="#f4f7f4" stroke-width="4"/>
+    <path d="M494 738h36" stroke="#f4f7f4" stroke-width="4"/>
+    <path d="M494 757h36" stroke="#f4f7f4" stroke-width="4"/>
+    <path d="M496 776h32" stroke="#f4f7f4" stroke-width="4"/>
+  </g>
+
+  <text x="512" y="885" text-anchor="middle" fill="#f5f5f7" font-size="74" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Subhash Mahamkali</text>
+  <text x="512" y="936" text-anchor="middle" fill="#f2f5fa" font-size="50" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="500">Plant Genomics • AI//ML</text>
 </svg>
