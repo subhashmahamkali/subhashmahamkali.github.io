@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SM DNA icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b3d91"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <text x="9" y="38" fill="#ffffff" font-size="24" font-family="Arial, sans-serif" font-weight="700">SM</text>
+
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="2.4" opacity="0.95">
+    <path d="M42 12c-6 5-6 10 0 15s6 10 0 15-6 10 0 15"/>
+    <path d="M52 12c6 5 6 10 0 15s-6 10 0 15 6 10 0 15"/>
+    <path d="M44 18h6"/>
+    <path d="M43 27h8"/>
+    <path d="M43 36h8"/>
+    <path d="M44 45h6"/>
+    <path d="M45 54h4"/>
+  </g>
+</svg>
