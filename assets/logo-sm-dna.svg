@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 260" role="img" aria-label="SM DNA logo">
+  <defs>
+    <linearGradient id="smGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b3d91"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="28" y="28" width="204" height="204" rx="44" fill="url(#smGrad)"/>
+
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.96">
+    <path d="M156 54c-24 20-24 40 0 60s24 40 0 60-24 40 0 60"/>
+    <path d="M188 54c24 20 24 40 0 60s-24 40 0 60 24 40 0 60"/>
+    <path d="M162 80h20"/>
+    <path d="M158 112h28"/>
+    <path d="M158 146h28"/>
+    <path d="M162 180h20"/>
+    <path d="M166 212h12"/>
+  </g>
+
+  <text x="56" y="148" fill="#ffffff" font-size="82" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="1">SM</text>
+
+  <text x="276" y="122" fill="url(#textGrad)" font-size="68" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Sai Subhash Mahamkali</text>
+  <text x="280" y="174" fill="#334155" font-size="28" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Genomics  •  Quantitative Genetics  •  Computational Biology</text>
+</svg>
