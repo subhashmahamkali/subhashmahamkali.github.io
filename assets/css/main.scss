@@ -38,11 +38,11 @@ h4,
 }
 
 .masthead .site-logo {
-  margin-right: 0.55rem;
+  margin-right: 0.45rem;
 }
 
 .masthead .site-logo img {
-  width: 128px !important;
+  width: 110px !important;
   height: auto !important;
   max-height: none !important;
   border-radius: 12px;
@@ -52,10 +52,16 @@ h4,
 }
 
 .masthead .site-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   line-height: 1.05;
   color: #334155;
+  white-space: nowrap;
+}
+
+.masthead .visible-links a {
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
 }
 
 .masthead__menu-item a {
@@ -141,12 +147,22 @@ h4,
   }
 
   .masthead .site-logo img {
-    width: 94px !important;
+    width: 72px !important;
     border-radius: 10px;
   }
 
   .masthead .site-title {
-    font-size: 1.55rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .masthead .site-logo img {
+    width: 90px !important;
+  }
+
+  .masthead .site-title {
+    font-size: 1.45rem;
   }
 }
 
