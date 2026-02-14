@@ -1,21 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SM DNA favicon">
   <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b3d91"/>
-      <stop offset="100%" stop-color="#0d9488"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f766e"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#fbg)"/>
 
-  <text x="8" y="37" fill="#ffffff" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">SM</text>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M39 11v42" stroke="rgba(255,255,255,0.38)" stroke-width="1.6"/>
 
-  <g fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" opacity="0.96">
-    <path d="M41 11c-6 5-6 10 0 15s6 10 0 15-6 10 0 15"/>
-    <path d="M51 11c6 5 6 10 0 15s-6 10 0 15 6 10 0 15"/>
-    <path d="M43 17h6"/>
-    <path d="M42 26h8"/>
-    <path d="M42 35h8"/>
-    <path d="M43 44h6"/>
-    <path d="M44 53h4"/>
+  <text x="7" y="39" fill="#f8fafc" font-size="27" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="0.3">SM</text>
+
+  <g fill="none" stroke-linecap="round" transform="translate(41,11)">
+    <path d="M5 1c6 5 6 9 0 14s-6 9 0 14" stroke="#fbbf24" stroke-width="2.2"/>
+    <path d="M15 1c-6 5-6 9 0 14s6 9 0 14" stroke="#fbbf24" stroke-width="2.2"/>
+    <path d="M7 6h6" stroke="#fde68a" stroke-width="1.8"/>
+    <path d="M6 12h8" stroke="#fde68a" stroke-width="1.8"/>
+    <path d="M6 18h8" stroke="#fde68a" stroke-width="1.8"/>
+    <path d="M7 24h6" stroke="#fde68a" stroke-width="1.8"/>
   </g>
 </svg>
