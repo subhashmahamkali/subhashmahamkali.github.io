@@ -43,16 +43,16 @@ h4,
   gap: 0.55rem;
 }
 
-.masthead .site-title::before {
-  content: "";
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  background-image: url("/assets/favicon.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  flex: 0 0 30px;
+.masthead .site-logo {
+  margin-right: 0.6rem;
+}
+
+.masthead .site-logo img {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.22);
 }
 
 .masthead__menu-item a {
@@ -137,10 +137,9 @@ h4,
     grid-template-columns: 1fr;
   }
 
-  .masthead .site-title::before {
-    width: 24px;
-    height: 24px;
-    flex-basis: 24px;
+  .masthead .site-logo img {
+    width: 28px;
+    height: 28px;
     border-radius: 6px;
   }
 }
