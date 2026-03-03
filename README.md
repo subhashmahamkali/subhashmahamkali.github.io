@@ -47,3 +47,5 @@ Live site: [https://subhashmahamkali.github.io](https://subhashmahamkali.github.
 - Primary mark: `assets/logo-sm-dna.svg`
 - Tab icon: `assets/favicon.svg`
 - Theme direction: clean scientific identity, modern typography, high readability.
+
+<!-- keepalive: 2026-03-02 -->
